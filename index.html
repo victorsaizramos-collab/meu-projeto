@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Agrinho: EcoIrriga Paraná</title>
+    <style>
+        body { 
+            background-color: #f1f8f5; 
+            color: #2c3e50; 
+            font-family: sans-serif; 
+            margin: 0;
+            padding: 0; 
+        }
+        .topo-site {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1625246333195-78d9c38ad451?q=80&w=1200');
+            background-size: cover; 
+            background-position: center; 
+            color: white; 
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .conteudo { 
+            max-width: 800px; 
+            margin: 30px auto; 
+            padding: 20px; 
+            background: white; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+        }
+        .autor {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: -10px;
+            margin-bottom: 20px;
+        }
+        .botao-projeto {
+            background-color: #ff9800; 
+            color: white; 
+            border: none; 
+            padding: 12px 30px; 
+            font-size: 16px;
+            font-weight: bold; 
+            border-radius: 30px; 
+            cursor: pointer; 
+            transition: transform 0.3s ease, background-color 0.3s ease; 
+            margin-top: 15px;
+        }
+        .botao-projeto:hover { 
+            background-color: #e65100; 
+            transform: scale(1.1) translateY(-3px); 
+        }
+    </style>
+</head>
+<body>
+    <header class="topo-site">
+        <h1>EcoIrriga Paraná</h1>
+        <p>Tecnologia e Sustentabilidade no Concurso Agrinho 2026</p>
+    </header>
 
+    <div class="conteudo">
+        <h2>Projeto: EcoIrriga Paraná</h2>
+        <p class="autor">Autor: Victor Gabriel Saiz de Ramos</p>
+        
+        <h3>Descrição</h3>
+        <p>O EcoIrriga Paraná é um sistema automatizado de manejo hídrico que utiliza inteligência artificial e sensores de baixo custo para otimizar o uso da água na agricultura familiar.</p>
+        
+        <h3>Objetivo</h3>
+        <p>Nosso objetivo é reduzir o desperdício de água nas lavouras em até 40%, monitorando as condições climáticas e a necessidade exata do solo para garantir um futuro mais sustentável e produtivo.</p>
+        
+        <button class="botao-projeto" onclick="alert('Obrigado pelo apoio ao projeto!')">Apoiar essa Ideia</button>
+    </div>
+</body>
+</html>
